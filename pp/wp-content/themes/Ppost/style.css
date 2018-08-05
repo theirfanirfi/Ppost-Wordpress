@@ -1,0 +1,176 @@
+/* 
+Theme Name: Ppost
+*/
+
+/* geo color:#337ab7;
+font-family: 'Nafees-Web-Naskh'!important;
+*/
+
+header {padding-top:14px;}
+header .second-header-title {color:#1d744a;font-weight: bold;}
+header .soccc {float: right;}
+header .soc-logo{width: 30px;}
+header .soc {float: right; margin-right: 20px;margin-top: 4px;}
+header .soc-logo {margin-right: 6px;}
+header .socc {padding: 8px;border-radius: 4px;background-color: floralwhite;}
+.menu-bar {background-color:#1d744a; height: 50px; margin-top: 12px;color: white;
+    font-weight: bold;margin-bottom: 0px; }
+.menu-bar .navbar-brand {color:white;}
+.menu-bar .navbar-brand:hover {color:green; background-color: white;}
+#nav-main .active {background-color: white;color:darkgreen;}
+#nav-main a {color:white;}
+#logo {transition: all,2s;}
+#logo:hover {transform: rotate(360deg);}
+.mobile-image img {margin:4px;width: 80px;height: 60px;float: right;clear: both;}
+.nav li a {color:white !important; font-size: 20px;border-left: 2px solid white;}
+.nav li a:hover {color:darkgreen !important; font-size: 18px;border-left: 2px solid darkgreen;
+    background-color: white !important;}
+
+.latestnews-bar {height: 40px;background-color: lightgray;margin-top: 4px;}
+.latestnews-bar .red {clear:both;background-color: #eb1616;height: 40px;
+    font-weight: 700;font-size: 20px;padding-top: 8px;text-align: right;padding-right : 16px;}
+section .same {height: 750px;}
+section .leadstory-title {margin:4px;float: right;font-size: 1.8em;
+    font-weight: 700;
+    line-height: 40px;
+    word-spacing: -3px;
+    text-align: right;
+    color:black;
+    }
+section .leadstory-title:hover {color:#1d744a;}
+section .leadstoryandreadleadstories .leadstory {
+    height: 500px;
+}
+section .leadstoryandreadleadstories .leadstory .story-time {
+    float: right;font-size: 14px;font-weight: 700;line-height: 20px;color:#9E9E9E;
+}
+
+section .leadstoryandreadleadstories .leadstory .latestbanner {
+    float: right;font-weight: bold;margin:0px;padding:0px 4px;transform: translate(-12px,30px);
+    background-color: #1d744a;color:white;
+}
+section .leadstoryandreadleadstories .leadstory .leadstoryImage {
+    height: 180px;width: 80%;margin:4px;float: right;margin-top: 1px;clear:both;
+}
+section .leadstoryandreadleadstories .leadstory .leadstoryshortdescription {
+    clear:both;font-weight: 300;font-size: 20px;margin:8px;word-spacing: -3px;text-align: justify;
+}
+
+section .leadremainingsotries .small-story  {float: right;margin-top: 24px;}
+section .leadremainingsotries .small-story img {width: 80px;height: 60px; }
+.videos .title-row {color:white;background-color: #1d744a;height: 40px;text-align: center;
+    margin:3px;margin-top: 12px;font-weight: 700;font-size: 20px;padding-top: 8px;}
+.currencyrateandfacebook .red-row{text-align:center;color: white;background-color: #eb1616;
+    height: 50px;margin-top:3px;font-weight: 700;font-size: 20px;padding-top: 8px;}
+.currencyrateandfacebook td {font-weight: 500;}
+.three-sections-after-body {margin-top:12px;height: 350px;padding: 16px;}
+.three-sections-after-body .col-md-4 {border-left: 2px solid #1d744a;}
+.news-lines-column .header-column {background-color: #1d744a;color:white;
+font-weight: 600;font-size: 16px;width: 100px;}
+.news-lines-column marquee {font-weight: 500;font-size: 16px;}
+@media only screen and (max-width: 768px)
+{
+header .logo-img {width: 20%;}
+header .second-header-title {color:#1d744a;font-weight:inherit;font-size: 25px;}
+.nav li a {color:white !important; background-color:#1d744a;font-size: 20px;border: 1px solid white;
+    z-index: 1;}
+.nav li {text-align: right;}
+   header .socialMedia {display: none;}
+}
+
+
+
+
+
+
+@media only screen and (min-width: 768px)
+{
+    header .logo-img {width: 60%;}
+
+}
+
+
+
+
+@media only screen and (max-width: 979px)
+{
+     header .logo-img {width: 20%;}
+     header .socialMedia {display: none;}
+
+     
+}
+
+
+@media only screen and (min-width: 1020px)
+{
+     header .logo-img {width: 70%;}
+     
+}
+
+/* 
+ :: Display-no is use for hide like display: none;
+ :: Display-yes is use for showing like display: inherit;
+ display-no         display-yes  
+ ---------------------------------
+ :: Visible is using for showing on this device will hide automatic at another device.
+ :: Hidden will hide for this device and showing will automaic at another device.
+ visible-desktop    hidden-desktop  
+ visible-tablet     hidden-tablet 
+ visible-phone      hidden-phone
+ ---------------------------------
+ :: One width is equal to col-lg-1 and small screen col-xs-12 col-sm-12
+ width-1            width-2 
+ width-3            width-4 
+ width-5            width-6 
+ width-7            width-8 
+ width-9            width-10 
+ width-11           width-12     
+ */
+ 
+ .display-yes {display: inherit !important;} 
+ .display-no {display: none; visibility: hidden;} 
+ .visible-phone {display: none !important;}
+ .visible-tablet { display: none !important; }  
+ .hidden-desktop { display: none !important; }  
+ .visible-desktop { display: inherit !important; } 
+ 
+ @media (min-width: 768px) and (max-width: 979px) { 
+ .hidden-desktop { display: inherit !important; } 
+ .visible-desktop { display: none !important ; } 
+ .visible-tablet { display: inherit !important; } 
+ .hidden-tablet { display: none !important; } }  
+ 
+ @media (max-width: 767px) { 
+ .hidden-desktop { display: inherit !important; } 
+ .visible-desktop { display: none !important; } 
+ .visible-phone { display: inherit !important; } 
+ .hidden-phone { display: none !important; } } 
+ 
+ @media (min-width: 1200px) {    
+ .width-12 { width: 1170px; } 
+ .width-11 { width: 1070px; } 
+ .width-10 { width: 970px; } 
+ .width-9 { width: 870px; } 
+ .width-8 { width: 770px; } 
+ .width-7 { width: 670px; } 
+ .width-6 { width: 570px; } 
+ .width-5 { width: 470px; } 
+ .width-4 { width: 370px; } 
+ .width-3 { width: 270px; } 
+ .width-2 { width: 170px; } 
+ .width-1 { width: 70px; }  }  
+ 
+ @media (min-width: 768px) and (max-width: 979px) {   
+ .width-12 { width: 724px; } .width-11 { width: 662px; } 
+ .width-10 { width: 600px; } .width-9 { width: 538px; } 
+ .width-8 { width: 476px; } .width-7 { width: 414px; } 
+ .width-6 { width: 352px; } .width-5 { width: 290px; } 
+ .width-4 { width: 228px; } .width-3 { width: 166px; } 
+ .width-2 { width: 104px; } .width-1 { width: 42px; }  } 
+ 
+ @media (max-width: 979px) { body { padding-top: 0; }  }  
+ img{ max-width:100%; height:auto; float:inherit; } 
+
+
+
+
